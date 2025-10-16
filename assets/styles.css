@@ -88,24 +88,3 @@ body{
   #content{padding:18px}
 }
 
-/* Custom Scrollbar */
-/* For Webkit browsers (Chrome, Safari, Edge, Opera) */
-::-webkit-scrollbar {
-  width: 8px; /* width of the entire scrollbar */
-}
-
-::-webkit-scrollbar-track {
-  background: transparent; /* color of the track */
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: var(--accent-2); /* color of the scroll thumb */
-  border-radius: 10px; /* roundness of the thumb */
-  border: 1px solid var(--panel); /* creates padding around scroll thumb */
-}
-
-/* For Firefox */
-* {
-  scrollbar-width: thin; /* "auto" or "thin" */
-  scrollbar-color: var(--accent-2) transparent; /* scroll thumb and track */
-}
