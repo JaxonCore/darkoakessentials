@@ -30,13 +30,13 @@
 - **Mob Generators:** Generate any mob with a mob limit.
 
 ## World Settings
-- Interaction Settings: Control player interactions with various elements.
-- Disable Item Frame Rotation: Prevent annoying item frame rotations.
-Customizable Welcome / Goodbye Messages: Set a custom welcome and goodbye message for players.
-Customizable World Border: Define the world border.
-Money Settings: Setup taxes lol.
-Floating Text: Create and delete floating text.
-Dimension Bans: Setup dimension bans.
+- **Interaction Settings:** Control player interactions with various elements.
+- **Disable Item Frame Rotation:** Prevent annoying item frame rotations.
+- **Customizable Welcome / Goodbye Messages:** Set a custom welcome and goodbye message for players.
+- **Customizable World Border:** Define the world border.
+- **Money Settings:** Setup taxes lol.
+- **Floating Text:** Create and delete floating text.
+- **Dimension Bans:** Setup dimension bans.
  
 ## Player Settings
 - **Player Data Menu:** View player tags, effects, items, and more.
@@ -55,7 +55,7 @@ Dimension Bans: Setup dimension bans.
 - **Other:** Manage other chat related settings such as proximity text chat or health displaying.
 
 ## Chest Locking
-- **Lock Chests: Restrict chest access to certain players.
+- **Lock Chests:** Restrict chest access to certain players.
 
 ## Admin Dashboard
 - **World Data:** Print and manage world data.
