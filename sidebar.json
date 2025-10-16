@@ -1,0 +1,7 @@
+[
+  { "file": "index.md", "title": "Home" },
+  { "file": "features.md", "title": "Features" },
+  { "file": "installation.md", "title": "Installation" },
+  { "file": "changelog.md", "title": "Changelog" },
+  { "file": "faq.md", "title": "FAQ" }
+]
