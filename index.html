@@ -32,10 +32,21 @@
       <nav id="nav"></nav>
 
       <div class="sidebar-footer">
-        <a id="download-btn" class="btn">Download .mcaddon</a>
+        <!-- 🪵 Download section -->
+        <div class="download-card">
+          <h3>Latest Release</h3>
+          <a 
+            id="download-btn" 
+            class="btn" 
+            href="https://github.com/stylithpvp/darkoakessentials/releases/download/addon/DarkoakEssentialsEPV2.3.8.mcaddon"
+            target="_blank"
+          >⬇️ Download v2.3.8</a>
+          <p class="muted">Released Oct 2025 • 1.87 MB</p>
+        </div>
+
         <div class="links">
-          <a href="#" id="github-link">GitHub</a>
-          <a href="#" id="discord-link">Discord</a>
+          <a href="https://github.com/stylithpvp/darkoakessentials" id="github-link" target="_blank">GitHub</a>
+          <a href="https://discord.gg/F64Wdw9xU3" id="discord-link" target="_blank">Discord</a>
         </div>
       </div>
     </aside>
@@ -55,6 +66,9 @@
   </div>
 
   <script src="assets/script.js"></script>
-  <script>hljs.highlightAll(); document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    hljs.highlightAll();
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
