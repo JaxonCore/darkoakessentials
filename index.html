@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Darkoak Essentials — Docs</title>
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
   <!-- Highlight.js -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
@@ -38,10 +41,10 @@
           <a 
             id="download-btn" 
             class="btn" 
-            href="https://github.com/stylithpvp/darkoakessentials/releases/download/addon/DarkoakEssentialsEPV2.3.8.mcaddon"
+            href="#" 
             target="_blank"
-          >⬇️ Download v2.3.8</a>
-          <p class="muted">Released Oct 2025 • 1.87 MB</p>
+          >⬇️ Download</a>
+          <p class="muted">Fetching latest release...</p>
         </div>
 
         <div class="links">
@@ -69,6 +72,41 @@
   <script>
     hljs.highlightAll();
     document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <!-- 🔄 Auto-update latest release info -->
+  <script>
+  async function loadLatestRelease() {
+    const repo = "stylithpvp/darkoakessentials";
+    const apiUrl = `https://api.github.com/repos/${repo}/releases/latest?nocache=${Date.now()}`;
+
+    try {
+      const res = await fetch(apiUrl);
+      const data = await res.json();
+      const asset = data.assets[0];
+
+      if (asset) {
+        // Update download button
+        document.getElementById("download-btn").href = asset.browser_download_url;
+        document.getElementById("download-btn").textContent = `⬇️ Download ${data.tag_name}`;
+
+        // Update release date + size
+        const releaseDate = new Date(data.published_at);
+        const month = releaseDate.toLocaleString('default', { month: 'short' });
+        const year = releaseDate.getFullYear();
+        const sizeMB = (asset.size / 1024 / 1024).toFixed(2);
+
+        document.querySelector(".download-card .muted").textContent = `Released ${month} ${year} • ${sizeMB} MB`;
+      } else {
+        document.querySelector(".download-card .muted").textContent = "No release found.";
+      }
+    } catch (err) {
+      console.error("Error fetching latest release:", err);
+      document.querySelector(".download-card .muted").textContent = "Failed to load release info.";
+    }
+  }
+
+  loadLatestRelease();
   </script>
 </body>
 </html>
