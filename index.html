@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Darkoak Essentials — Docs</title>
+
+  <!-- Highlight.js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+
+  <!-- Marked (Markdown renderer) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <div class="brand">
+        <div class="logo"></div>
+        <div>
+          <h1>Darkoak Essentials</h1>
+          <p class="muted">Addon docs — Bedrock Edition</p>
+        </div>
+      </div>
+
+      <div class="search-wrap">
+        <input id="search" placeholder="Search docs..." />
+      </div>
+
+      <nav id="nav"></nav>
+
+      <div class="sidebar-footer">
+        <a id="download-btn" class="btn">Download .mcaddon</a>
+        <div class="links">
+          <a href="#" id="github-link">GitHub</a>
+          <a href="#" id="discord-link">Discord</a>
+        </div>
+      </div>
+    </aside>
+
+    <main id="content-area">
+      <header class="topbar">
+        <button id="menu-toggle" aria-label="toggle menu">☰</button>
+        <div class="top-title">Darkoak Essentials — Documentation</div>
+      </header>
+
+      <article id="content" class="markdown-body">Loading…</article>
+
+      <footer class="site-footer">
+        <div>© <span id="year"></span> Darkoak Essentials</div>
+      </footer>
+    </main>
+  </div>
+
+  <script src="assets/script.js"></script>
+  <script>hljs.highlightAll(); document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
