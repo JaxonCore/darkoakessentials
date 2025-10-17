@@ -85,7 +85,7 @@
   <script>
   async function loadLatestRelease() {
     const repo = "stylithpvp/darkoakessentials";
-    const apiUrl = `https://api.github.com/repos/${repo}/releases/latest?nocache=${Date.now()}`;
+    const apiUrl = `https://api.github.com/repos/${repo}/releases/addon?nocache=${Date.now()}`;
 
     try {
       const res = await fetch(apiUrl);
