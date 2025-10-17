@@ -114,3 +114,26 @@ body{
   scrollbar-width: thin; /* "auto" or "thin" */
   scrollbar-color: var(--accent-2) transparent; /* scroll thumb and track */
 }
+
+/* Older Versions button */
+.secondary-btn {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 8px;
+  border-radius: 8px;
+  background: var(--glass);
+  color: var(--text);
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid rgba(255,255,255,0.05);
+  transition: all 0.2s ease;
+}
+
+.secondary-btn:hover {
+  background: linear-gradient(180deg, var(--accent-2), rgba(0,0,0,0.4));
+  color: #fff;
+  border-color: rgba(255,255,255,0.1);
+  transform: translateY(-1px);
+}
