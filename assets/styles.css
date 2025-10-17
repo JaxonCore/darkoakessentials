@@ -159,11 +159,11 @@ body{
   display: block;
 }
 
-/* === BLOG PAGE STYLES === */
+/* === BLOG PAGE FIXES === */
 
 .blog-container {
-  max-width: 1200px;
-  margin: 100px auto;
+  max-width: 1000px;
+  margin: 40px auto;
   padding: 0 20px;
 }
 
@@ -173,38 +173,40 @@ body{
 }
 
 .blog-header h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
+  color: var(--text);
   margin-bottom: 10px;
 }
 
 .blog-header p {
-  color: var(--text-secondary, #bbb);
-  font-size: 1.1rem;
+  color: var(--muted);
 }
 
 .blog-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   gap: 30px;
 }
 
 .blog-card {
-  background: var(--card-bg, #1c1c1c);
-  border-radius: 10px;
+  background: var(--panel);
+  border-radius: var(--radius);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  transition: transform 0.25s ease, box-shadow 0.3s ease;
 }
 
 .blog-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
 
 .blog-img {
   width: 100%;
-  height: 200px;
+  height: 260px;
   object-fit: cover;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
 }
 
 .blog-content {
@@ -212,37 +214,12 @@ body{
 }
 
 .blog-title {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+  color: var(--accent);
   margin-bottom: 10px;
-  color: var(--accent, #fff);
 }
 
 .blog-desc {
-  color: var(--text-secondary, #ccc);
-  margin-bottom: 15px;
-  line-height: 1.5;
-}
-
-.blog-btn {
-  display: inline-block;
-  text-decoration: none;
-  background: var(--accent, #3a8ef6);
-  color: #fff;
-  padding: 8px 16px;
-  border-radius: 6px;
-  transition: background 0.2s ease;
-}
-
-.blog-btn:hover {
-  background: var(--accent-hover, #1e70d1);
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-  .blog-container {
-    margin: 60px auto;
-  }
-  .blog-header h1 {
-    font-size: 2rem;
-  }
+  color: var(--muted);
+  line-height: 1.6;
 }
