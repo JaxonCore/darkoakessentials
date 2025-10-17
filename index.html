@@ -21,7 +21,9 @@
   <div id="app">
     <aside id="sidebar">
       <div class="brand">
-        <div class="logo"></div>
+        <div class="logo">
+          <img src="assets/icon.png" alt="Darkoak Essentials Icon" />
+        </div>
         <div>
           <h1>Darkoak Essentials</h1>
           <p class="muted">Addon docs — Bedrock Edition</p>
@@ -84,7 +86,7 @@
   <!-- 🔄 Auto-update latest release info -->
   <script>
   async function loadLatestRelease() {
-    const repo = "stylithpvp/darkoakessentials";
+    const repo = "JaxonCore/darkoakessentials";
     const apiUrl = `https://api.github.com/repos/${repo}/releases/tags/addon?nocache=${Date.now()}`;
 
     try {
