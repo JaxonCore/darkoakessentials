@@ -1,9 +1,11 @@
 # Changelog
 
+---
 
-## Version fix ( September 30, 2025 ) 
+## Version Fix (September 30, 2025)
+
 ### Added:
-* /wegradientc (like /wegradient but uses coords instead of a selection, allows for better deep gens)
+* /wegradientc (like /wegradient but uses coords instead of a selection — allows for better deep gens)
 
 ### Fixed:
 * /money
@@ -12,16 +14,16 @@
 ### Changes:
 * None
 
-————————————————————————————————————————————————————————————————————————————————————————————————————————
+---
 
-## Anticheat and fake players update! ( October 17, 2025 )
+## Anticheat and Fake Players Update! (October 17, 2025)
 
 ### Added:
 * Roles system
 * #playerlist#
 * Anti-dupe 2, anti-nametags, anti-anti-immobile (lol), anti-air-swim, anti-autoclicker, anti-air-jump, anti-fly 4
 * Two more hacked blocks to the anticheat
-* */fakeplayer*
+* /fakeplayer
 
 ### Fixed:
 * Lots of anticheat modules are now more performant
@@ -35,7 +37,7 @@
 * Sidebar
 
 ### Changes:
-* World interaction settings not longer affect blocks above allow blocks
+* World interaction settings no longer affect blocks above allow blocks
 * Strike action now has a damage slider instead of killing
 * Multiple anticheat modules now have sensitivity sliders
 * Gens can now be longer and have delays
@@ -44,4 +46,8 @@
 ### Removals:
 * Anti-gamemode decided it didn't want to work anymore (I don't know what I did but it crashes now???)
 
-<@&1353462796666277928> <@&1353462796666277928>
+---
+
+## Fixes ( FIXED VERSION )
+* I broke the last update lol 
+
