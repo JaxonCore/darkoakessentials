@@ -159,7 +159,69 @@ body{
   display: block;
 }
 
-/* === BLOG PAGE FIXES === */
+/* === ABOUT PAGE STYLES === */
+
+.about-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.about-header h1 {
+  font-size: 2.4rem;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.about-header p {
+  color: var(--muted);
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.team-card {
+  background: var(--panel);
+  border-radius: var(--radius);
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  transition: transform 0.25s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.team-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--accent);
+  margin-bottom: 15px;
+}
+
+.team-card h3 {
+  color: var(--text);
+  font-size: 1.3rem;
+  margin: 8px 0 4px;
+}
+
+.team-card p {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* === BLOG PAGE STYLES === */
 
 .blog-container {
   max-width: 1000px;
@@ -174,7 +236,7 @@ body{
 
 .blog-header h1 {
   font-size: 2.2rem;
-  color: var(--text);
+  color: var(--accent);
   margin-bottom: 10px;
 }
 
@@ -224,7 +286,8 @@ body{
   line-height: 1.6;
 }
 
-{
+/* === BUTTONS (used on homepage, about, etc.) === */
+
 .button-group {
   display: flex;
   flex-wrap: wrap;
@@ -232,16 +295,19 @@ body{
   justify-content: center;
   margin-top: 1.5rem;
 }
+
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background: var(--accent, #2b5cff);
-  color: #fff;
+  background: var(--accent);
+  color: #000;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
   transition: background 0.2s ease;
 }
+
 .btn:hover {
-  background: var(--accent-hover, #1a45cc);
+  background: var(--accent-2);
+  color: #fff;
 }
