@@ -1,9 +1,30 @@
 [
-  { "file": "index.md", "title": "Home" },
-  { "file": "features.md", "title": "Features" },
-  { "file": "installation.md", "title": "Installation" },
-  { "file": "changelog.md", "title": "Changelog" },
-  { "file": "faq.md", "title": "FAQ" },
-  { "file": "blog.md", "title": "Blog" },
-  { "file": "about.md", "title": "About Us" }
+  {
+    "title": "Home",
+    "file": "index.md"
+  },
+  {
+    "title": "Changelog",
+    "file": "changelog.md"
+  },
+  {
+    "title": "Features",
+    "file": "features.md"
+  },
+  {
+    "title": "Installation",
+    "file": "installation.md"
+  },
+  {
+    "title": "FAQ",
+    "file": "faq.md"
+  },
+  {
+    "title": "Blog",
+    "file": "blog.md"
+  },
+  {
+    "title": "About Us",
+    "file": "about.md"
+  }
 ]
