@@ -4,4 +4,6 @@
   { "file": "installation.md", "title": "Installation" },
   { "file": "changelog.md", "title": "Changelog" },
   { "file": "faq.md", "title": "FAQ" }
+  { "file": "blog.md", "title": "Blog" }
+  { "file": "about.md", "title": "About US" }
 ]
