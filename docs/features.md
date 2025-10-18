@@ -1,5 +1,7 @@
 # Features
 
+---
+
 ## Important things
 - **Chat Ranks**
 - **Chat Commands**
@@ -9,6 +11,8 @@
 - **Floating Text**
 - **Moderation**
 - **Master Toggles**
+
+---
 
 ## Items
 - **Main Item:** Central item for accessing various features.
@@ -22,12 +26,18 @@
 - **20 Bindable Items:** Various items that can be bound to commands.
 - **Compressed Items:** Various items that can be used for better storage.
 
+---
+
 ## Miscellaneous
 - **Compatibility:** Works on Minecraft version 1.21.90 .
+
+---
 
 ## Generators
 - **Block Generators:** Generate any block, including modded ones.
 - **Mob Generators:** Generate any mob with a mob limit.
+
+---
 
 ## World Settings
 - **Interaction Settings:** Control player interactions with various elements.
@@ -37,6 +47,8 @@
 - **Money Settings:** Setup taxes lol.
 - **Floating Text:** Create and delete floating text.
 - **Dimension Bans:** Setup dimension bans.
+
+ ---
  
 ## Player Settings
 - **Player Data Menu:** View player tags, effects, items, and more.
@@ -46,6 +58,8 @@
 - **Rank Adding / Removal:** Add and remove ranks from players.
 - **Other:** Manage other player related settings such as bounties or the whitelist.
 
+---
+
 ## Chat Settings
 - **Customizable Ranks:** Define ranks and their display in chat.
 - **Chat Commands:** Create, edit, delete, and view custom chat commands.
@@ -54,8 +68,12 @@
 - **Autoreply:** Create, edit, and delete autoreplies. Very helpful for people who keep spamming "How do I get a plot?"
 - **Other:** Manage other chat related settings such as proximity text chat or health displaying.
 
+---
+
 ## Chest Locking
 - **Lock Chests:** Restrict chest access to certain players.
+
+---
 
 ## Admin Dashboard
 - **World Data:** Print and manage world data.
@@ -65,6 +83,8 @@
 - **Documentation:** Detailed documentation for the addon.
 - **Player List:** See all players that have ever joined your server. Also includes data about the players, such as if they are banned or are an admin.
 - **Master Settings:** Toggle entire portions of the addon such as the chat or enchant system.
+
+ ---
  
 ## UI Making
 - **Message UI:** Create message UIs.
@@ -73,12 +93,16 @@
 - **Customize Actionbar:** Modify the actionbar.
 - **Customizable Sidebar:** Modify the sidebar.
 - **Delete / Edit UIs:** Remove unwanted UIs or edit them.
+
+ ---
  
 ## Community Item Settings
 - **Manage Warps:** Set and manage warps.
 - **anage RTP and TPA:** Control random teleportation and teleport requests.
 - **Manage Shop:** Oversee player shops.
 - **Toggle Buttons:** Toggle whether certain buttons show.
+
+ ---
  
 ## Community Item Menu
 - **Community Menu:** Central menu for community features.
@@ -88,9 +112,13 @@
 - **Report a Player:** Submit player reports.
 - **Customizable Profile:** Personalize player profiles.
 - **Credits:** Credits.
- 
+
+---
+
 ## Data Editor
 - **Edit Properties:** Change values of entity and block properties.
+
+ ---
  
 ## Anticheat Options
 - **Pre-bans**
@@ -118,13 +146,19 @@
 - **Anti-NBT 2**
 - **Anti-admin-items**
 - **I'm probably forgetting some****
+
+ ---
  
 ## Custom Enchanting
 - **Enchant Command:** Use /darkoak:enchant to enchant items.
 
+---
+
 ## World Protection
 - **General Protection:** Ban potentially dangerous actions.
 - **Area Protection:** Prevent block breaking, placing, and explosions in protected areas.
+
+---
 
 ## External Support
 - **Custom UI:** Allow users to code their own UIs and integrate them into the addon (work in progress).
