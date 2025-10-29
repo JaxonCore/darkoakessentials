@@ -49,5 +49,27 @@
 ---
 
 ## Fixes ( FIXED VERSION )
-* I broke the last update lol 
+* I broke the last update lol
+
+---
+
+## Version fix + (other stuff)
+
+### Added:
+* Proximity radio tag for proximity chat
+* Caching system to reduce lag
+* /spawn now has more options
+
+### Fixed:
+* Should work on 1.21.120 or whatever the update is lol
+
+### Changes:
+* The message log now contains join and leave messages, timestamps, locations, searching, and more!
+* The rank adding UI now has a dropdown for picking existing ranks
+
+### Experimental:
+* Anti-ZD (I don't recommend using)
+
+### Removed:
+* Data collection has been removed
 
